@@ -1,0 +1,17 @@
+name: Example Push Action
+on: push
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - run: |
+          git clone https://github.com/openscine/device_xiaomi_topaz.git
+          cd device_xiaomi_topaz
+          git config user.name abhiram79
+          git config user.email abhiramv670@gmail.com
+          git add .
+          git commit -m "initial commit (Device tree)"
+          git push
