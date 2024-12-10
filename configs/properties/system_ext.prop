@@ -1,0 +1,18 @@
+# Dalvik
+dalvik.vm.dex2oat64.enabled=true
+
+# DPM
+persist.vendor.dpm.feature=11
+
+# GPS
+persist.sys.gps.fence=true
+
+# Graphics
+persist.wm.enable_remote_keyguard_animation=0
+ro.surface_flinger.supports_background_blur=0
+
+# Media
+vendor.media.target_variant=_khaje_v0
+
+# Radio
+telephony.active_modems.max_count=2
