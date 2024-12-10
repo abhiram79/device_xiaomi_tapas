@@ -8,8 +8,8 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - run: |
-          git clone https://github.com/openscine/device_xiaomi_topaz.git
-          cd device_xiaomi_topaz
+          wget https://github.com/mystic76/MicroG-RE/releases/download/1.0/topaz.zip
+          unzip topaz.zip
           git config user.name abhiram79
           git config user.email abhiramv670@gmail.com
           git add .
