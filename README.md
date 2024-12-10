@@ -1,4 +1,4 @@
-### Common Device Tree for XIAOMI REDMI NOTE 12 4G/12 4G NFC 
+### Common Device Tree for XIAOMI REDMI NOTE 12 4G/4G NFC 
 - Codename (TAPAS/TOPAZ)
 - Copyright (C) 2023 The LineageOS Project
 
