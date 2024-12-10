@@ -8,7 +8,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - run: |
-          wget https://github.com/mystic76/MicroG-RE/releases/download/1.0/topaz.zip
+          wget https://github.com/mystic76/MicroG-RE/releases/download/1.0/topz.zip
           unzip topaz.zip
           git config user.name abhiram79
           git config user.email abhiramv670@gmail.com
